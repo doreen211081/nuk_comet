@@ -1,0 +1,14 @@
+SELECT course.Course_Name,comment.comment_id,course.Course_Id
+FROM course
+LEFT JOIN comment
+ON comment.course_id = course.Course_Id
+WHERE comment.comment_id is NULL
+
+
+IF (COURSE ID ¦b¦¹ªí){
+	INSERT INTO COMMENT (comment_id,course_id
+	VALUES('1','course_id')
+}
+else
+	INSERT INTO COMMENT (comment_id,course_id
+	VALUES('comment_id+1','course_id')

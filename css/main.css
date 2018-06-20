@@ -1,0 +1,211 @@
+body{
+	width:100%;  　   
+	margin:0px auto;   
+	font-family: '微軟正黑體';
+	}
+
+.top{
+  background-color:rgba(255,204,34,0.7);
+  width:100%;
+  height: 150px;
+  
+  position:fixed;
+  top: 0;
+  z-index:-2;
+}
+
+.logo{
+	position: fixed;
+	top: 25px;
+	left: 38%;	
+	z-index:-2;
+}
+
+.title{
+	margin:40px 0px 0px 100px ;
+	z-index:1;
+	position:fixed;
+ 	top: -1;
+}
+section{
+	z-index:1;
+}
+.login{
+    font-size:24pt;
+    float: right;
+    margin: 100px 100px 0px 0px;
+	background: transparent;
+	border: none;
+	font-family: '微軟正黑體';
+	z-index:-1;
+}
+a:hover {
+	color:	0044BB;
+	text-decoration: underline;
+} 
+
+.menu{
+	width: 25%;
+	height: 13%;
+	background: 	#fff4c1;
+	border-style:solid;
+	border-width:3px;
+	border-color: #AA7700;
+	padding:60px;
+	border-radius:40px;
+	margin: 5px 70px;
+	box-shadow:3px 3px 5px 6px 	#d0d0d0;
+	position: absolute;
+	top:200px;
+	left:4.5%;
+	float: left;
+	z-index:0;
+}
+
+h2{
+	font-weight: bold;
+	font-size: 24pt;
+}
+
+h3{
+	color:red;
+	font-size: 18pt;
+	text-align: center;
+}
+
+h4{
+	font-weight: bold;
+	color:red;
+	font-size: 14pt;
+
+}
+
+select{
+	width:90%;
+	height: 30%;
+	font-family: 微軟正黑體;
+	font-size: 16pt;
+}
+
+.space{
+	position: absolute;
+	top:200px;
+	left:51.5%;
+}
+
+.space2{
+	position: absolute;
+	top:450px;
+	left:4.5%;
+}
+
+.space3{
+	position: absolute;
+	top:450px;
+	left:51.5%;
+	
+}
+
+.input{
+	width:100%; 
+	border:2px; 
+	border-bottom-style: solid;
+	border-color:#7b7b7b;
+	border-top-style: none;
+	border-left-style:none;
+	border-right-style:none;
+	background-color:#fff4c1;
+	font-size:16pt;
+	z-index:-3;
+}
+
+.button{
+	background-color: 	#0080ff; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	font-size: 16pt;
+	border-radius:10px;
+	font-family: '微軟正黑體';
+	position: absolute;
+	top:94%;
+	left:50%;
+}
+
+.gray{
+	background-color:#9d9d9d;
+	position: absolute;
+	top:94%;
+	left:42%;
+}
+
+.bgd{
+	position:fixed;
+	right:0px;
+	bottom:0px;
+	z-index:-5;
+	opacity: 0.8; 	
+}
+
+.lgimg{
+	display:block; 
+	margin:auto;
+	width: 40%;
+}
+
+.text{
+	font-size: 14pt;
+	font-weight: bold;
+	align: center;
+}
+
+.input2{
+	width:50%;
+	font-size: 12pt;
+}
+
+.button2{
+	font-family: 微軟正黑體;
+	font-size: 16pt;
+	font-weight: bold;
+	border:none;
+	box-shadow: 0 3px 5px #555555;
+	display: block;
+	margin: auto;
+	width: 20%;
+}
+
+
+.blue{
+	background-color: 00CCFF;
+}
+.pink{
+	background-color: FF6666;
+}
+
+
+.forgetpwd{
+	text-align: center;
+}
+
+.forgetpwd:hover{
+	text-decoration: underline;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.backtoup{
+	display: block;
+	position:fixed;
+	right:0px;
+	bottom:0px;
+	z-index:3;	
+}
+
+
+

@@ -1,0 +1,221 @@
+.title{
+    font-size:56pt;
+    font-weight: bolder;
+ 
+}
+
+.classname{
+    padding-right: 55%; 
+    text-shadow: 0 3px #ffffff, 3px 0 #ffffff, -3px 0 #ffffff, 0 -3px #ffffff;
+}
+.teachername{
+    padding-left: 55%;
+    text-shadow: 0 3px #ffffff, 3px 0 #ffffff, -3px 0 #ffffff, 0 -3px #ffffff;
+}
+
+.button3{
+    background-color: 	#009FCC; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14pt;
+    margin: 160px 20px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: '微軟正黑體';
+    font-weight: bolder;
+    font-size: 20pt;
+    
+}
+
+.button3:hover {
+    background-color: 	#0088A8;
+    color: 	yellow;
+}
+
+.respon{
+    width: 80%;
+    height: 70%;
+    background: #fff;
+    color: #333;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 3px solid #fff;
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    -moz-transition: ease-in-out 0.5s;
+    -o-transition: ease-in-out 0.5s;
+    -webkit-transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.5s;
+    z-index:4;
+    box-shadow:3px 3px 5px 6px grey;
+}
+
+.sub{
+    font-size: 40pt;
+    font-weight: bolder; 
+    text-align: center;
+    padding-top: 10px;
+}
+
+.year{
+    width:25%;
+	height: 5%;
+	font-size: 14pt;
+}
+
+h4{
+    color: black;
+    padding-left:3% ;    
+    font-size: 14pt;
+    display: inline;    
+}
+
+.semester_site{
+    padding-left:10% ;    
+}
+
+.star{
+    display: inline;
+    float: left;
+    padding-left: 3%;
+}
+
+.cold{
+    position: relative;
+    top:0%;
+    left:0%;
+}
+
+.textarea{
+    font-size: 14pt;
+    width: 90%;
+    border-color:	#888800;
+    border-width:3px;
+    border-style:solid;
+    resize : none;
+    margin-left: 3%;
+
+    font-family: '微軟正黑體';
+    background: 	#DDDDDD;
+}
+
+.sbutton{
+    width: 10%;
+    display: inline;
+}
+
+.p{
+    position: absolute;
+    bottom: 2%;
+    right: 15%;
+}
+.b{
+    position: absolute;
+    bottom: 2%;
+    right: 3%;
+}
+
+.termsite{
+    font-size: 24pt;
+    color:black;
+}
+.termsite:hover {
+    text-decoration:underline;
+    color:gray;
+    }
+
+.selectbut{
+    display: block;
+    float: right;
+    margin-top: 160px; 
+    font-size: 14pt;
+ 
+}
+
+.aaaa{
+    display: block;
+    float: right;
+    
+}
+
+.bbbb{
+    float: right;
+}
+
+.comment{
+    font-family: '微軟正黑體';
+    background-color: #FFE4B5;
+    border:2px 	#D2B48C solid;
+    border-radius:10px;
+    width:90%;
+   margin: 10 auto ;
+   padding: 20px;
+   font-size:20pt;
+   position: relative;
+   font-weight:bold;
+   line-height: 1.5;
+   min-height:200px;
+
+   
+}
+.comment a{
+    color:#eb4633;
+    font-family: '微軟正黑體';
+}
+
+.comment_txt{
+    width: 80%;
+    height: auto;
+    font-weight:lighter;
+}
+
+.warpcomet{
+    padding-top: 200px; 
+}
+
+.like{
+    background-color: 	 #CCDDFF;
+    border:5px 	#ffffff solid;
+    border-radius:10px;
+    width:10%;
+   margin: 5 5 5 5 ;
+   padding: 20px;   
+   font-size:20pt;
+   float: right;
+    position: relative;
+    top: -200px;
+    right: 80px;
+
+}
+
+td{
+    color: #FF4500;
+    font-size:20pt;
+    font-weight:bold;
+}
+.adiv{
+    height: 200px;
+}
+.adiv section{
+    height: 200px;
+}
+
+.nuk{
+    float: right;
+}
+
+.dislike{
+
+    float: right;
+}
